@@ -1,0 +1,15 @@
+name: autolay
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cassowary:
+    path: ../cassowary
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  extra_pedantic: 2.0.0
